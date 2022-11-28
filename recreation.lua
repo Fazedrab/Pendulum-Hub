@@ -834,6 +834,7 @@ do -- UI
 	
 	do -- Credits
 		CreditsTab:NewLabel("Credits to Tescalus#3758 for making the entire hub")
+		CreditsTab:NewLabel("Credits to Zylex for making the Remake Of The hub")
 		CreditsTab:NewLabel("Credits to padero#3957 for the Coffeeware tab")
 		CreditsTab:NewLabel("Ty ProductionTakeOne#3330 for help with new reanimation")
 		CreditsTab:NewLabel("Old ui was made by charli#4616")
@@ -915,7 +916,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 		Pendulum:SetFooter('Current version: V5')
 	end
 	
-	CoreGui:WaitForChild("ScreenGui").Name = "Pendulum Hub"
+	CoreGui:WaitForChild("ScreenGui").Name = "Pendulum Hub Remake"
 	
 	Blur.Parent = Lighting
 	task.spawn(function()
