@@ -25,7 +25,7 @@ do -- UI
 	local Pendulum = Library:New("Pendulum Hub")
 	local SettingsTab = Pendulum:NewTab("Settings")
 	local CreditsTab = Pendulum:NewTab("Credits")
-	local OMGFESEX = Pendulum:NewTab("Sex 😏")
+	local OMGFESEX = Pendulum:NewTab("Sussy Stuff 😏")
 	local LOL = Pendulum:NewTab("Bypass Audio Update")
 	local ScriptsTab = Pendulum:NewTab("Scripts")
 	local reanimtype = SettingsTab:NewLabel('Reanimation type: ' .. Global.Reanimation)
