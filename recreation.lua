@@ -196,6 +196,9 @@ do -- UI
 		ScriptsTab:NewButton("Aureate", "This script can kill your frames in big games.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3tEbNb5"))()
 		end)
+		ScriptsTab:NewButton("DaFeets", "Am Gonna Cry.", function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Fazedrab/Pendulum-Hub/main/dafeets.lua'))()
+		end)
 
 		ScriptsTab:NewButton("Doomspire Brickbattler", "For people who say that old roblox is better.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/35UvALg"))()
