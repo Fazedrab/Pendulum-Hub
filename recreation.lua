@@ -68,6 +68,16 @@ do -- UI
 			flingtype.Text = 'Fling type: '.. Global.FlingType
 		end,true)
 	end
+	SettingsTab:NewButton("Reset", "Just In Case", function()
+			local x = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.x
+
+                                local y = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.y 
+
+                                local z = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.z
+
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y-10,z)
+			end
+
 	
 	do -- ScriptsTab Buttons
 		ScriptsTab:NewButton("Neptunian V", "An original. If you want the hat join the discord.", function()
