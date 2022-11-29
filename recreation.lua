@@ -73,6 +73,9 @@ do -- UI
 		ScriptsTab:NewButton("Neptunian V", "An original. If you want the hat join the discord.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/34oqvdH"))()
 		end)
+		ScriptsTab:NewButton("VR", "An original.", function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Fazedrab/Pendulum-Hub/main/VR.lua'))()
+		end)
 
 		ScriptsTab:NewButton("Sonic", "All other versions don't fling except this one.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3Cmw7BP"))()
