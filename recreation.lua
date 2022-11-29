@@ -68,16 +68,6 @@ do -- UI
 			flingtype.Text = 'Fling type: '.. Global.FlingType
 		end,true)
 	end
-	SettingsTab:NewButton("Reset", "Just In Case", function()
-			local x = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.x
-
-                                local y = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.y 
-
-                                local z = game.Players.LocalPlayer.Character.HumanoidRootPart.Position.z
-
-                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(x,y-10,z)
-			end
-
 	
 	do -- ScriptsTab Buttons
 		ScriptsTab:NewButton("Neptunian V", "An original. If you want the hat join the discord.", function()
@@ -326,9 +316,9 @@ do -- UI
 			loadstring(game:HttpGetAsync("https://bit.ly/3pIMKmg"))()
 		end)
 		LOL:NewLabel("WARNING: The script will take at least 10 seconds to load")
-		LOL:NewLabel("Please be patient!")
-		LOL:NewButton("Bypass Roblox Audio Update", "Be patient.", function()
-			loadstring(game:HttpGet('https://bit.ly/3TcD7sQ'))() 	
+		LOL:NewLabel("Please be patient! cuz it doesnt even work")
+		LOL:NewButton("Bypass Roblox Audio Update", "it doesnt work faty.", function()
+			loadstring(game:HttpGet('noworkyworky'))() 	
 		end)
 		
 		ScriptsTab:NewButton("Groundbreaker Gauntlets", "Gauntlets of death", function()
